@@ -1,0 +1,122 @@
+header {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0, 40px;
+}
+.navlink {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    background-color: #d5e6da;
+}
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+}
+
+.hero section {
+    max-width: 400%;
+    margin: 0 40 0 40;
+    padding: 0 40 0 40;
+}
+
+.hero h1 {
+    color: #4a7dfc;
+    font-size: 36px;
+    nargin: 0 0 15px 0;
+}
+
+.hero p {
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 300px;
+    margin: 0 0 20px 0;
+}
+
+.hero button {
+    background-color: #4a7dfc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero section2 {
+    display: block;
+     width: 320px;
+    height: 180px;
+    padding: 40px;
+    background-color: transparent;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.hero section2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.body1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.item {
+    flex: 1 1 0;
+    max-width: 150px;
+}
+.box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 2px solid #4a7dfc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.caption {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #333;
+}
+
+.aboutbox {
+    background-color: #e8e9ed;
+    padding: 40px 80px;
+    border-radius: 4px;
+}
+.aboutboxtext {
+    font-style: italic;
+    font-size:  17px;
+    color:#333;
+    line-height:1.6;
+    margin: 0 150px 15px 150px;
+}
+.aboutbox-author {
+    font-weight: bold;
+    text-align: right;
+    color: #222;
+    margin: 0;
+}
+
+footer {
+    background-color: #ed6521;
+    text-align: center;
+    padding:  25px;
+    box-shadow: 0px -5px -15px rgba(0, 0, 0, 0.15);
+}
